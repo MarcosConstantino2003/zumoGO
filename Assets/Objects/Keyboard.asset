@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Keyboard
   m_EditorClassIdentifier: 
   itemName: Keyboard
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 3f194b25117e16944a2562568f661e28, type: 3}
   description: "Teclado m\xE1gico"
   isStackable: 1

@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2022.3/respin/2022.3.62f2-4af31df585-v2' branch; Version is '2022.3.62f3 (96770f904ca7) revision 9860879'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'es' Physical Memory: 16315 MB
+OS: 'Windows 11  (10.0.26100) 64bit CoreSingleLanguage' Language: 'es' Physical Memory: 7946 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-F:\Unity\Editor\2022.3.62f3\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2022.3.62f3\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker2
 -projectPath
-F:/Unity/Projects/ThinkyQuest
+C:/Users/Neko/Romi/ThinkyQuest
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-57068
-Successfully changed project path to: F:/Unity/Projects/ThinkyQuest
-F:/Unity/Projects/ThinkyQuest
+63418
+Successfully changed project path to: C:/Users/Neko/Romi/ThinkyQuest
+C:/Users/Neko/Romi/ThinkyQuest
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,71 +49,74 @@ F:/Unity/Projects/ThinkyQuest
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [37624]  Target information:
+Player connection [20192]  Target information:
 
-Player connection [37624]  * "[IP] 192.168.0.107 [Port] 0 [Flags] 2 [Guid] 1249812512 [EditorId] 1249812512 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-58821H1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [20192]  * "[IP] 192.168.65.1 [Port] 0 [Flags] 2 [Guid] 1450308810 [EditorId] 1450308810 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HQPO4JI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [37624] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [37624] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [20192]  * "[IP] 192.168.255.1 [Port] 0 [Flags] 2 [Guid] 1450308810 [EditorId] 1450308810 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HQPO4JI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [20192]  * "[IP] 192.168.0.101 [Port] 0 [Flags] 2 [Guid] 1450308810 [EditorId] 1450308810 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HQPO4JI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [20192] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [20192] Host joined alternative multi-casting on [225.0.0.222:34997]...
 Input System module state changed to: Initialized.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-Refreshing native plugins compatible for Editor in 1088.24 ms, found 4 plugins.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+Refreshing native plugins compatible for Editor in 67.83 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.62f3 (96770f904ca7)
-[Subsystems] Discovering subsystems at path F:/Unity/Editor/2022.3.62f3/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path F:/Unity/Projects/ThinkyQuest/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Neko/Romi/ThinkyQuest/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: AMD Radeon RX 6600 (ID=0x73ff)
-    Vendor:   ATI
-    VRAM:     8121 MB
-    Driver:   32.0.12033.1030
+    Renderer: Intel(R) Iris(R) Plus Graphics (ID=0x8a52)
+    Vendor:   Intel
+    VRAM:     3973 MB
+    Driver:   27.20.100.8783
 Initialize mono
-Mono path[0] = 'F:/Unity/Editor/2022.3.62f3/Editor/Data/Managed'
-Mono path[1] = 'F:/Unity/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'F:/Unity/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56324
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56680
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: F:/Unity/Editor/2022.3.62f3/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: F:/Unity/Editor/2022.3.62f3/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007493 seconds.
-- Loaded All Assemblies, in  3.514 seconds
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.026045 seconds.
+- Loaded All Assemblies, in  1.954 seconds
+Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 800 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.312 seconds
-Domain Reload Profiling: 4825ms
-	BeginReloadAssembly (1625ms)
+- Finished resetting the current domain, in  0.460 seconds
+Domain Reload Profiling: 2414ms
+	BeginReloadAssembly (241ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (575ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (67ms)
-	LoadAllAssembliesAndSetupDomain (1232ms)
-		LoadAssemblies (1706ms)
+		CreateAndSetChildDomain (3ms)
+	RebuildCommonClasses (639ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (125ms)
+	LoadAllAssembliesAndSetupDomain (934ms)
+		LoadAssemblies (234ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1147ms)
-			TypeCache.Refresh (1145ms)
-				TypeCache.ScanAssembly (1117ms)
+		AnalyzeDomain (930ms)
+			TypeCache.Refresh (928ms)
+				TypeCache.ScanAssembly (902ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (1312ms)
+	FinalizeReload (462ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1247ms)
+		SetupLoadedEditorAssemblies (394ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (991ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (15ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (168ms)
-			ProcessInitializeOnLoadMethodAttributes (79ms)
+			BeforeProcessingInitializeOnLoad (8ms)
+			ProcessInitializeOnLoadAttributes (261ms)
+			ProcessInitializeOnLoadMethodAttributes (81ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -122,839 +125,207 @@ Domain Reload Profiling: 4825ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  2.626 seconds
+- Loaded All Assemblies, in  1.765 seconds
+Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
-Native extension for Android target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.104 seconds
-Domain Reload Profiling: 3728ms
-	BeginReloadAssembly (213ms)
+- Finished resetting the current domain, in  0.894 seconds
+Domain Reload Profiling: 2651ms
+	BeginReloadAssembly (663ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
+		DisableScriptedObjects (110ms)
 		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (29ms)
-	RebuildCommonClasses (53ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (56ms)
-	LoadAllAssembliesAndSetupDomain (2285ms)
-		LoadAssemblies (1850ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (79ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (32ms)
+	initialDomainReloadingComplete (85ms)
+	LoadAllAssembliesAndSetupDomain (925ms)
+		LoadAssemblies (903ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (560ms)
-			TypeCache.Refresh (513ms)
-				TypeCache.ScanAssembly (489ms)
-			ScanForSourceGeneratedMonoScriptInfo (36ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (1105ms)
+		AnalyzeDomain (300ms)
+			TypeCache.Refresh (244ms)
+				TypeCache.ScanAssembly (211ms)
+			ScanForSourceGeneratedMonoScriptInfo (46ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (895ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (847ms)
+		SetupLoadedEditorAssemblies (717ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (28ms)
-			SetLoadedEditorAssemblies (7ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (111ms)
-			ProcessInitializeOnLoadAttributes (635ms)
-			ProcessInitializeOnLoadMethodAttributes (61ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (564ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (11ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.69 seconds
-Refreshing native plugins compatible for Editor in 5.62 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.22 seconds
+Refreshing native plugins compatible for Editor in 7.49 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4290 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 49 unused Assets / (241.6 KB). Loaded Objects now: 4759.
-Memory consumption went from 149.6 MB to 149.4 MB.
-Total: 17.994200 ms (FindLiveObjects: 0.784400 ms CreateObjectMapping: 1.838100 ms MarkObjects: 14.343200 ms  DeleteObjects: 1.026500 ms)
+Unloading 4291 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (241.6 KB). Loaded Objects now: 4758.
+Memory consumption went from 149.3 MB to 149.1 MB.
+Total: 4.406300 ms (FindLiveObjects: 0.527300 ms CreateObjectMapping: 0.167400 ms MarkObjects: 3.503800 ms  DeleteObjects: 0.206400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:scripting/monoscript/fileName/UIManager.cs: 619f5747dc184f3577c898ec321c40d4 -> 2595dc2cbd41cc2d023a3ebb28d87e9e
-  custom:scripting/monoscript/fileName/Inventory.cs: 9e763594ef7e0ab7d608bf03e4de17b5 -> 8040a54c9928a06ca68d2588af0de046
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/Door.cs: 06c8567cd8937d8d56232f3de9b2d377 -> 89da75c00dd875a160d70ad71da9a2a1
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/PickupItem.cs: d1c0b8648b7d22ff1c12f52229084f6a -> 71d901a7943673c26b0527ad8f269cee
-  custom:scripting/monoscript/fileName/Room.cs: d1c87f5a00c96902b5884b56b22265d6 -> 80712595f8242fc9e86128d3188cd0f1
-  custom:scripting/monoscript/fileName/RoomManager.cs: 70017efd1ccd640cc235ecbd5526ad30 -> 579c8f6d2c175182baea4cac812896a0
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/Item.cs: c2b7fc65fe255f985743270ca947d8ec -> edfd25bbe8f561e55c7415f9c3adacfe
-  custom:scripting/monoscript/fileName/PlayerMovement.cs: 5c1499cfc43e291157e191fb54bb34f9 -> 42480eed24e61f9d7e7e895933644f96
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 2318148.475744 seconds.
-  path: Assets/Tiles/Ancient Forest 1.6/Forest.prefab
-  artifactKey: Guid(b589cb060fef20a448b7b9226ce6fc90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ancient Forest 1.6/Forest.prefab using Guid(b589cb060fef20a448b7b9226ce6fc90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'a4b8c9ed92bb0969dd574813cf00dd94') in 0.167313 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 8.367544 seconds.
-  path: Assets/Tiles/Ancient Forest 1.6/Forest.prefab
-  artifactKey: Guid(b589cb060fef20a448b7b9226ce6fc90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ancient Forest 1.6/Forest.prefab using Guid(b589cb060fef20a448b7b9226ce6fc90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '9dbfbd1dfa30b5833517e4925cefee1a') in 0.041389 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 125
-========================================================================
-Received Import Request.
-  Time since last request: 8.957339 seconds.
-  path: Assets/Tiles/Ancient Forest 1.6/R.prefab
-  artifactKey: Guid(b97b598848117fd40b425298f26f18df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ancient Forest 1.6/R.prefab using Guid(b97b598848117fd40b425298f26f18df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '4182a657319889fc374b42c0c5b0a982') in 0.037281 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 125
-========================================================================
-Received Import Request.
-  Time since last request: 0.006774 seconds.
-  path: Assets/Tiles/Ancient Forest 1.6/Tiles 4.png
-  artifactKey: Guid(e542853de6de7cf4f96ae80d19861f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ancient Forest 1.6/Tiles 4.png using Guid(e542853de6de7cf4f96ae80d19861f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '51624bc398d31bc5d99e3e1266ef1ef7') in 0.272732 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 59
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Tiles/Ancient Forest 1.6/Tiles 4_23.asset
-  artifactKey: Guid(b04b013d89a10594f8bde67815e09d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ancient Forest 1.6/Tiles 4_23.asset using Guid(b04b013d89a10594f8bde67815e09d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '5e34b62e0e41e6cdc6a9ac35d08fcc16') in 0.029919 seconds
+  Time since last request: 82612.809468 seconds.
+  path: Assets/Kana/kana-pi.png
+  artifactKey: Guid(73a2bca9ec0f35543877d7c4de165235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kana/kana-pi.png using Guid(73a2bca9ec0f35543877d7c4de165235) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '802cba44288bce46740f924ba91d426b') in 0.171595 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Tiles/Ancient Forest 1.6/Tiles 4_21.asset
-  artifactKey: Guid(f039504b4e1dbde48bb0c0c70be4bbea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ancient Forest 1.6/Tiles 4_21.asset using Guid(f039504b4e1dbde48bb0c0c70be4bbea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '83338441dfe0d706137b32193f5d0a28') in 0.007583 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Tiles/Ancient Forest 1.6/Tiles 4_12.asset
-  artifactKey: Guid(06b3ae550bca98d4da4850496d4298ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ancient Forest 1.6/Tiles 4_12.asset using Guid(06b3ae550bca98d4da4850496d4298ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '3fc53dca58e448a8976c116b4484c95d') in 0.007668 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Tiles/Ancient Forest 1.6/Tiles 4_4.asset
-  artifactKey: Guid(56b705d1039ea4b46ba31c0266ed5f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ancient Forest 1.6/Tiles 4_4.asset using Guid(56b705d1039ea4b46ba31c0266ed5f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '0fffead07a81bb709a2a4e61fbcee4da') in 0.006923 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Tiles/Ancient Forest 1.6/Tiles 4_0.asset
-  artifactKey: Guid(8db2948d6c76d5548bc3b5452c5a6fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ancient Forest 1.6/Tiles 4_0.asset using Guid(8db2948d6c76d5548bc3b5452c5a6fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '2b29c7c54b1ef25a83a541d9600829fd') in 0.021770 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Tiles/Ancient Forest 1.6/Tiles 4_31.asset
-  artifactKey: Guid(e3f9224f8f93c924baab1f3cb6b88c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ancient Forest 1.6/Tiles 4_31.asset using Guid(e3f9224f8f93c924baab1f3cb6b88c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '827f9fbe52fd87a57710fd82f54f0e55') in 0.011341 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Tiles/Ancient Forest 1.6/Tiles 4_29.asset
-  artifactKey: Guid(d68bbf7164662584e8cb977ecd52e5c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ancient Forest 1.6/Tiles 4_29.asset using Guid(d68bbf7164662584e8cb977ecd52e5c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'd1ac9571b7d46436a7b3d0f9de9efa1d') in 0.010619 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Tiles/Ancient Forest 1.6/Tiles 4_13.asset
-  artifactKey: Guid(34ac1d2a4d74f9a47afee477f2fc31ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ancient Forest 1.6/Tiles 4_13.asset using Guid(34ac1d2a4d74f9a47afee477f2fc31ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '771ac15bd71262fa0b19080ac709e3b3') in 0.008578 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Tiles/Ancient Forest 1.6/Tiles 4_26.asset
-  artifactKey: Guid(26dad6c4403636242aa48c70c78f5f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ancient Forest 1.6/Tiles 4_26.asset using Guid(26dad6c4403636242aa48c70c78f5f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '430d3e98a100c9ae116641e55752d3ac') in 0.008037 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Tiles/Ancient Forest 1.6/Tiles 4_14.asset
-  artifactKey: Guid(ccca837dcf69f1b49983f758d3a29f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ancient Forest 1.6/Tiles 4_14.asset using Guid(ccca837dcf69f1b49983f758d3a29f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'd94c285ca47f8c47f39e3a224f046bd9') in 0.011104 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Tiles/Ancient Forest 1.6/Tiles 4_19.asset
-  artifactKey: Guid(9a03061d8d88d414389a46f1d217b48d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ancient Forest 1.6/Tiles 4_19.asset using Guid(9a03061d8d88d414389a46f1d217b48d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '297f89f2651d03738cd27efa28060dd5') in 0.020341 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 5.035048 seconds.
-  path: Assets/Tiles/Ancient Forest 1.6/Tiles 4_33.asset
-  artifactKey: Guid(37bee7dab33ed9849a25ff51cc8c812c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ancient Forest 1.6/Tiles 4_33.asset using Guid(37bee7dab33ed9849a25ff51cc8c812c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '1ac9a0ce6f638b08594b2e67a015049e') in 0.041455 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 7.041531 seconds.
-  path: Assets/Tiles/Ancient Forest 1.6/Tiles 4_34.asset
-  artifactKey: Guid(ecc4b103fdd46744d91d915e209c73f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ancient Forest 1.6/Tiles 4_34.asset using Guid(ecc4b103fdd46744d91d915e209c73f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'e5e328a7102bc742ea27b12bfd1bcb2f') in 0.016615 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 1.815111 seconds.
-  path: Assets/Tiles/Tiles 4_0.asset
-  artifactKey: Guid(56686384e9dbbd04887c1049a307384f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Tiles 4_0.asset using Guid(56686384e9dbbd04887c1049a307384f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '00a41386e98684ef00fbcb097f6872a4') in 0.027529 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Tiles/Tiles 4_33.asset
-  artifactKey: Guid(e25be955d31fa7b4492809b68933b3c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Tiles 4_33.asset using Guid(e25be955d31fa7b4492809b68933b3c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'cf55864ae3b104898cd7b922cf9831c0') in 0.006743 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Tiles/Tiles 4_3.asset
-  artifactKey: Guid(2a476f99ddfbb264abb002bbc14de6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Tiles 4_3.asset using Guid(2a476f99ddfbb264abb002bbc14de6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '002693e26c3ca9d53b2de7ae0bc47b18') in 0.006087 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Tiles/Tiles 4_14.asset
-  artifactKey: Guid(c3b861e69b531aa4388e0a72f25fc945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Tiles 4_14.asset using Guid(c3b861e69b531aa4388e0a72f25fc945) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '2b31f5b010f60bb91b3eefdb337bca11') in 0.007813 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Tiles/Tiles 4_9.asset
-  artifactKey: Guid(320c35fef8a9ffa409ecce5aa074c597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Tiles 4_9.asset using Guid(320c35fef8a9ffa409ecce5aa074c597) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '80f61cc22cedfd17b52e92cb6f8e8b53') in 0.023730 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Tiles/Tiles 4_23.asset
-  artifactKey: Guid(1c2738a4fbc6e1f48b7d0b3baa8bd2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Tiles 4_23.asset using Guid(1c2738a4fbc6e1f48b7d0b3baa8bd2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'b24fc421828c4f19a302d9097a414d9e') in 0.026534 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Tiles/Tiles 4_17.asset
-  artifactKey: Guid(9bd9e01e34494e6419412cb6f2c25cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Tiles 4_17.asset using Guid(9bd9e01e34494e6419412cb6f2c25cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'e2fd4a59d30148d945378d66eeb72188') in 0.025932 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Tiles/Tiles 4_34.asset
-  artifactKey: Guid(5ccb6ead13a9c274596ca2701c06be89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Tiles 4_34.asset using Guid(5ccb6ead13a9c274596ca2701c06be89) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '980afff50d1838f3c2de68c8da8bb80a') in 0.007838 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Tiles/Tiles 4_18.asset
-  artifactKey: Guid(84560fa7db5591b4da9cdee4f170008d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Tiles 4_18.asset using Guid(84560fa7db5591b4da9cdee4f170008d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '6ff13fead7d1cc3b69bdf7969bd746a4') in 0.027025 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Tiles/Tiles 4_31.asset
-  artifactKey: Guid(fba583913b37fc640bf92277a2432362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Tiles 4_31.asset using Guid(fba583913b37fc640bf92277a2432362) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '8abf78112674492984299cb71a1c941d') in 0.011010 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Tiles/Tiles 4_8.asset
-  artifactKey: Guid(50466f0d6e59c7546b0c15965c08a23e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Tiles 4_8.asset using Guid(50466f0d6e59c7546b0c15965c08a23e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '579dae6941b2294bc5bca4c4716615ae') in 0.009032 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Tiles/Tiles 4_30.asset
-  artifactKey: Guid(a7d8c63c0516ea446addd2595d3d85f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Tiles 4_30.asset using Guid(a7d8c63c0516ea446addd2595d3d85f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '6934e99b2cc1e8c8ba6273711263e7c3') in 0.022950 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 2.428015 seconds.
-  path: Assets/Tiles/Tiles 4_35.asset
-  artifactKey: Guid(f008c05eae230ed4d9cff16e0c14a6c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Tiles 4_35.asset using Guid(f008c05eae230ed4d9cff16e0c14a6c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'eb712c4bfb8664ac37a1fb3634015836') in 0.017074 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Tiles/Tiles 4_43.asset
-  artifactKey: Guid(1d2daac4379e95443807c8e64d87e335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Tiles 4_43.asset using Guid(1d2daac4379e95443807c8e64d87e335) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'c98d995226799d67a37bda4ffa8655c8') in 0.018379 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Tiles/Tiles 4_38.asset
-  artifactKey: Guid(a9c9c4799d6ac9747aca4410ba17972d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Tiles 4_38.asset using Guid(a9c9c4799d6ac9747aca4410ba17972d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '6941588c1341f9b4e972120eab8092c3') in 0.018858 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Tiles/Tiles 4_40.asset
-  artifactKey: Guid(5a44cccc5dc7adf4388055146070d441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Tiles 4_40.asset using Guid(5a44cccc5dc7adf4388055146070d441) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'fd929d451e1f3698ccd874449726dc56') in 0.018603 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 9.925594 seconds.
-  path: Assets/Tiles/New Palette 1.prefab
-  artifactKey: Guid(2ae5f8728f5103843a5a07f4b86c6869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/New Palette 1.prefab using Guid(2ae5f8728f5103843a5a07f4b86c6869) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '5d9fd23d34264d62adf628fd18d6ea84') in 0.016229 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 38.055070 seconds.
-  path: Assets/Tiles/Ancient Forest 1.6/Tiles 4.png
-  artifactKey: Guid(e542853de6de7cf4f96ae80d19861f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ancient Forest 1.6/Tiles 4.png using Guid(e542853de6de7cf4f96ae80d19861f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'c61c893bb2249f8557dfbd3950a7aebd') in 0.228911 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 52
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Tiles/Ancient Forest 1.6/Tiles 4_22.asset
-  artifactKey: Guid(f3c0700ee5e0dc441836f65552e3ea5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ancient Forest 1.6/Tiles 4_22.asset using Guid(f3c0700ee5e0dc441836f65552e3ea5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '35df57027ae2487d0f870b6379b329e2') in 0.020432 seconds
+  Time since last request: 0.098666 seconds.
+  path: Assets/Kana/kana-ru.png
+  artifactKey: Guid(a01cea2a1e799374d818ffcc72e5d843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kana/kana-ru.png using Guid(a01cea2a1e799374d818ffcc72e5d843) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'bba520f3d43c355dae4a9098c1f5eb20') in 0.046769 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000036 seconds.
-  path: Assets/Tiles/Ancient Forest 1.6/Tiles 4_30.asset
-  artifactKey: Guid(6d3e8c795ca9dd147814699537555191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ancient Forest 1.6/Tiles 4_30.asset using Guid(6d3e8c795ca9dd147814699537555191) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '75803943838c28c27ea3bbbdfd90b9b8') in 0.020274 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/Tiles/Ancient Forest 1.6/Tiles 4_8.asset
-  artifactKey: Guid(9bdc97bdfcefe2d4cbd57f1ff4050639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ancient Forest 1.6/Tiles 4_8.asset using Guid(9bdc97bdfcefe2d4cbd57f1ff4050639) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '29c6cc6245046fc8e4a572832c9451a7') in 0.019287 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Tiles/Ancient Forest 1.6/Tiles 4_13.asset
-  artifactKey: Guid(34ac1d2a4d74f9a47afee477f2fc31ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ancient Forest 1.6/Tiles 4_13.asset using Guid(34ac1d2a4d74f9a47afee477f2fc31ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '180d5ec5324848a02e18b0bafb324f2b') in 0.022049 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Tiles/Ancient Forest 1.6/Tiles 4_14.asset
-  artifactKey: Guid(ccca837dcf69f1b49983f758d3a29f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ancient Forest 1.6/Tiles 4_14.asset using Guid(ccca837dcf69f1b49983f758d3a29f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'c17a74a79781c897a25ec82b1cb62021') in 0.023502 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Tiles/Ancient Forest 1.6/Tiles 4_2.asset
-  artifactKey: Guid(815d10df210294440b2f4bc93626000d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ancient Forest 1.6/Tiles 4_2.asset using Guid(815d10df210294440b2f4bc93626000d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'd0c973ecf875cc1bfa0b5d9420a36a1e') in 0.017204 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 76.819617 seconds.
-  path: Assets/Tiles/Ancient Forest 1.6/Tiles 4.png
-  artifactKey: Guid(e542853de6de7cf4f96ae80d19861f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ancient Forest 1.6/Tiles 4.png using Guid(e542853de6de7cf4f96ae80d19861f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'd95e0fdf4ca77be65764f5ce810963de') in 0.183620 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 58
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Tiles/Ancient Forest 1.6/Tiles 4_28.asset
-  artifactKey: Guid(4e1e9d7063417b94d828a4fed4a4b97c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ancient Forest 1.6/Tiles 4_28.asset using Guid(4e1e9d7063417b94d828a4fed4a4b97c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '219e394788b083a5b14e0300777ca055') in 0.023884 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Tiles/Ancient Forest 1.6/Tiles 4_16.asset
-  artifactKey: Guid(86fbf2c0fd62b5548b54465258e87eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ancient Forest 1.6/Tiles 4_16.asset using Guid(86fbf2c0fd62b5548b54465258e87eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '265ee84e8c3afa80de1f0cf57205f529') in 0.018729 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Tiles/Ancient Forest 1.6/Tiles 4_24.asset
-  artifactKey: Guid(eca6b84f8de2f8448952e44295b4dcae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ancient Forest 1.6/Tiles 4_24.asset using Guid(eca6b84f8de2f8448952e44295b4dcae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '0a2e44c689dd2937f3ed3406d883545f') in 0.006361 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Tiles/Ancient Forest 1.6/Tiles 4_21.asset
-  artifactKey: Guid(f039504b4e1dbde48bb0c0c70be4bbea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ancient Forest 1.6/Tiles 4_21.asset using Guid(f039504b4e1dbde48bb0c0c70be4bbea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '2bf1a6ec0c0fa8161e52efe6ef58796d') in 0.006950 seconds
+  path: Assets/Kana/kana-ti.png
+  artifactKey: Guid(ea749640922dfb8459a9d7f5c4b37f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kana/kana-ti.png using Guid(ea749640922dfb8459a9d7f5c4b37f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '91d5bf69ef7f6bbd60819fb82afa244e') in 0.036581 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000024 seconds.
-  path: Assets/Tiles/Ancient Forest 1.6/Tiles 4_12.asset
-  artifactKey: Guid(06b3ae550bca98d4da4850496d4298ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ancient Forest 1.6/Tiles 4_12.asset using Guid(06b3ae550bca98d4da4850496d4298ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '524cebbdb7ae72d0398948da2313aa93') in 0.005975 seconds
+  path: Assets/Kana/kana-to.png
+  artifactKey: Guid(00f23f503f3800144b21ca3cc08b0654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kana/kana-to.png using Guid(00f23f503f3800144b21ca3cc08b0654) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '96bbc10b55653440e178dc44aa657942') in 0.035189 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Tiles/Ancient Forest 1.6/Tiles 4_22.asset
-  artifactKey: Guid(f3c0700ee5e0dc441836f65552e3ea5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ancient Forest 1.6/Tiles 4_22.asset using Guid(f3c0700ee5e0dc441836f65552e3ea5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '57633c5ccdaaed387906eb80650a6db6') in 0.007528 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Tiles/Ancient Forest 1.6/Tiles 4_34.asset
-  artifactKey: Guid(ecc4b103fdd46744d91d915e209c73f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ancient Forest 1.6/Tiles 4_34.asset using Guid(ecc4b103fdd46744d91d915e209c73f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'c904da7966bddfef2807545ddbb5bc31') in 0.006772 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Tiles/Ancient Forest 1.6/Tiles 4_30.asset
-  artifactKey: Guid(6d3e8c795ca9dd147814699537555191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ancient Forest 1.6/Tiles 4_30.asset using Guid(6d3e8c795ca9dd147814699537555191) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '98598fbe32b478de3c5d1fa0f544ef7e') in 0.018117 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Tiles/Ancient Forest 1.6/Tiles 4_29.asset
-  artifactKey: Guid(d68bbf7164662584e8cb977ecd52e5c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ancient Forest 1.6/Tiles 4_29.asset using Guid(d68bbf7164662584e8cb977ecd52e5c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '8306d0d2e54343d48fb79cb934a74319') in 0.008107 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Tiles/Ancient Forest 1.6/Tiles 4_13.asset
-  artifactKey: Guid(34ac1d2a4d74f9a47afee477f2fc31ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ancient Forest 1.6/Tiles 4_13.asset using Guid(34ac1d2a4d74f9a47afee477f2fc31ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '928ba79258f8042383e5069b0e040de4') in 0.006544 seconds
+  Time since last request: 0.000056 seconds.
+  path: Assets/Kana/kana-yo.png
+  artifactKey: Guid(d80f76901485a6641b3c27894e4eff93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kana/kana-yo.png using Guid(d80f76901485a6641b3c27894e4eff93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'bf88004b2703b062ad8725a4b508e0eb') in 0.036906 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000030 seconds.
-  path: Assets/Tiles/Ancient Forest 1.6/Tiles 4_26.asset
-  artifactKey: Guid(26dad6c4403636242aa48c70c78f5f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ancient Forest 1.6/Tiles 4_26.asset using Guid(26dad6c4403636242aa48c70c78f5f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '42c8af295b226ad877ebe1d0cd2d1ec3') in 0.006124 seconds
+  path: Assets/Kana/kana-te.png
+  artifactKey: Guid(966d338d62d55ad4da4eacb2ebace41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kana/kana-te.png using Guid(966d338d62d55ad4da4eacb2ebace41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2ffca5a5c21a465f1a060762cb96be03') in 0.033750 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Tiles/Ancient Forest 1.6/Tiles 4_14.asset
-  artifactKey: Guid(ccca837dcf69f1b49983f758d3a29f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ancient Forest 1.6/Tiles 4_14.asset using Guid(ccca837dcf69f1b49983f758d3a29f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '4e0f6b85f8439dd709c27dc0650d20f0') in 0.007662 seconds
+  Time since last request: 0.117769 seconds.
+  path: Assets/Kana/kana-yu.png
+  artifactKey: Guid(0e9d4f1b8d9fed145bc68e0bf1aac676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kana/kana-yu.png using Guid(0e9d4f1b8d9fed145bc68e0bf1aac676) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '11161d0177d6f518e9030bc39a7d52b2') in 0.042552 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Tiles/Ancient Forest 1.6/Tiles 4_6.asset
-  artifactKey: Guid(9dcc81516008e184b841db5e7bc96522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ancient Forest 1.6/Tiles 4_6.asset using Guid(9dcc81516008e184b841db5e7bc96522) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '03f9e9446b8ba0d489648f0bd7d876d9') in 0.007277 seconds
+  Time since last request: 0.000050 seconds.
+  path: Assets/Kana/kana-zu.png
+  artifactKey: Guid(2c362513e8f11b443a5d8910716b1f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kana/kana-zu.png using Guid(2c362513e8f11b443a5d8910716b1f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3793572614be7763f42ced7572d60ea9') in 0.055450 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Tiles/Ancient Forest 1.6/Tiles 4_2.asset
-  artifactKey: Guid(815d10df210294440b2f4bc93626000d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ancient Forest 1.6/Tiles 4_2.asset using Guid(815d10df210294440b2f4bc93626000d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'f060a6fcdc60efa9d65765d39cc2c46f') in 0.006523 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 5.420369 seconds.
-  path: Assets/Tiles/Ancient Forest 1.6/Tiles 4_35.asset
-  artifactKey: Guid(26b29f93b5f5203489f3febbac467e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ancient Forest 1.6/Tiles 4_35.asset using Guid(26b29f93b5f5203489f3febbac467e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'ea1c036622c452392e1c8388cf6dc55d') in 0.014094 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Tiles/Ancient Forest 1.6/Tiles 4_40.asset
-  artifactKey: Guid(c3d3659f662bbde4686abe99848b54e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ancient Forest 1.6/Tiles 4_40.asset using Guid(c3d3659f662bbde4686abe99848b54e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '23692e6e1c888b09e351eded851d05a5') in 0.008060 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Tiles/Ancient Forest 1.6/Tiles 4_41.asset
-  artifactKey: Guid(90b5bf11942be6b40bc18cbe37a46a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ancient Forest 1.6/Tiles 4_41.asset using Guid(90b5bf11942be6b40bc18cbe37a46a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '8d7bed52ef9a194fc3e7eddab5c7533e') in 0.009446 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Tiles/Ancient Forest 1.6/Tiles 4_44.asset
-  artifactKey: Guid(a4d7a704fd1df154b893cc3236e6e20e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ancient Forest 1.6/Tiles 4_44.asset using Guid(a4d7a704fd1df154b893cc3236e6e20e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '822e870ece9073ef3f71919c22bcc1b2') in 0.011088 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Tiles/Ancient Forest 1.6/Tiles 4_39.asset
-  artifactKey: Guid(852b5686a3021f04d9bc005d3bd4c49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ancient Forest 1.6/Tiles 4_39.asset using Guid(852b5686a3021f04d9bc005d3bd4c49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'ef93ff08ab1a1484f18e53bceed09458') in 0.013896 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Tiles/Ancient Forest 1.6/Tiles 4_45.asset
-  artifactKey: Guid(514acf2a82879694d8452e5b1f9e97b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ancient Forest 1.6/Tiles 4_45.asset using Guid(514acf2a82879694d8452e5b1f9e97b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '01be99979d28d3a6c399a576dc0ef1bf') in 0.020799 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.518700 seconds.
-  path: Assets/Tiles/Ancient Forest 1.6/Tiles 4_47.asset
-  artifactKey: Guid(c0f9779a6d3f75c4288a8a1700bd6a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ancient Forest 1.6/Tiles 4_47.asset using Guid(c0f9779a6d3f75c4288a8a1700bd6a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '9688c1586c20818e3e3cc8c6dab7fb8f') in 0.023683 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Tiles/Ancient Forest 1.6/Tiles 4_56.asset
-  artifactKey: Guid(28681cbbb3576574aaa16564e94fbc1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ancient Forest 1.6/Tiles 4_56.asset using Guid(28681cbbb3576574aaa16564e94fbc1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '83018850c89c9c15dc1c55118fd545d6') in 0.008265 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Tiles/Ancient Forest 1.6/Tiles 4_52.asset
-  artifactKey: Guid(baf4441eecdf0c644aa3695f85117f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ancient Forest 1.6/Tiles 4_52.asset using Guid(baf4441eecdf0c644aa3695f85117f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '3ab7a189e7378d486ded212ade555888') in 0.004015 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Tiles/Ancient Forest 1.6/Tiles 4_53.asset
-  artifactKey: Guid(e849a097805c2554e83c16e8d559fb1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ancient Forest 1.6/Tiles 4_53.asset using Guid(e849a097805c2554e83c16e8d559fb1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'e5f345cce333aadd9abba9a9e80846f5') in 0.012673 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Tiles/Ancient Forest 1.6/Tiles 4_50.asset
-  artifactKey: Guid(4e1bde56e0e7785419b444b46a43ae32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ancient Forest 1.6/Tiles 4_50.asset using Guid(4e1bde56e0e7785419b444b46a43ae32) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '0eece6fa2770be660bc947236b8898c0') in 0.012285 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Tiles/Ancient Forest 1.6/Tiles 4_55.asset
-  artifactKey: Guid(bd8db46051af5264f909de49952ef1af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Ancient Forest 1.6/Tiles 4_55.asset using Guid(bd8db46051af5264f909de49952ef1af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '8e5712e1ac4373d40aae9b7347bf5730') in 0.014795 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 88.140544 seconds.
-  path: Assets/Tiles/New Palette 1.prefab
-  artifactKey: Guid(2ae5f8728f5103843a5a07f4b86c6869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/New Palette 1.prefab using Guid(2ae5f8728f5103843a5a07f4b86c6869) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '448aa18e62f6bcdae467bb1ace8ea68d') in 0.042509 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 118
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Tiles/Tiles 4_27.asset
-  artifactKey: Guid(afeb9db8ad765d341853919305bf7dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Tiles 4_27.asset using Guid(afeb9db8ad765d341853919305bf7dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '8e5deacbeb5540bf20b7e5cdeffc5392') in 0.023107 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Tiles/Tiles 4_29.asset
-  artifactKey: Guid(f72c3c3b30edd164f871f3ae4e50f401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Tiles 4_29.asset using Guid(f72c3c3b30edd164f871f3ae4e50f401) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'f83821e3f3ee9fdbb5a3d40023c324e7') in 0.006507 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Tiles/Tiles 4_14.asset
-  artifactKey: Guid(c3b861e69b531aa4388e0a72f25fc945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Tiles 4_14.asset using Guid(c3b861e69b531aa4388e0a72f25fc945) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '42b3c0722d764505ded7b2da5070b255') in 0.007531 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Tiles/Tiles 4_9.asset
-  artifactKey: Guid(320c35fef8a9ffa409ecce5aa074c597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Tiles 4_9.asset using Guid(320c35fef8a9ffa409ecce5aa074c597) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '693f084bf77f5835ac1943a6b37b5bb3') in 0.019686 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Tiles/Tiles 4_23.asset
-  artifactKey: Guid(1c2738a4fbc6e1f48b7d0b3baa8bd2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Tiles 4_23.asset using Guid(1c2738a4fbc6e1f48b7d0b3baa8bd2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '88cb182f197a6553d7c3f95e98cba2e4') in 0.019704 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Tiles/Tiles 4_2.asset
-  artifactKey: Guid(060f00908cc42ff4090777e83d8e3870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Tiles 4_2.asset using Guid(060f00908cc42ff4090777e83d8e3870) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'bc7fb37a0c8ed8ca084ac260e02e8dff') in 0.005826 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Tiles/Tiles 4_10.asset
-  artifactKey: Guid(3f3f7f60cbb2421419642c9ec2fe2404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Tiles 4_10.asset using Guid(3f3f7f60cbb2421419642c9ec2fe2404) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'a4d936100aca6de11f8f7618b7829eac') in 0.006712 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Tiles/Tiles 4_6.asset
-  artifactKey: Guid(b6f7170f5fa5ad843b0b8aaa3fb3e770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Tiles 4_6.asset using Guid(b6f7170f5fa5ad843b0b8aaa3fb3e770) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'd5d6aeb6093027ba88d178dd568f7681') in 0.007165 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Tiles/Tiles 4_22.asset
-  artifactKey: Guid(f69c4b1c5b837bd4693216b161b515ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Tiles 4_22.asset using Guid(f69c4b1c5b837bd4693216b161b515ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '9b5c26353a1909ebad31fe73fbb2e5ed') in 0.007999 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Tiles/Tiles 4_18.asset
-  artifactKey: Guid(84560fa7db5591b4da9cdee4f170008d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Tiles 4_18.asset using Guid(84560fa7db5591b4da9cdee4f170008d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'ded652a050f897515e2207d1a5e261ab') in 0.020554 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Tiles/Tiles 4_21.asset
-  artifactKey: Guid(ed16d4078e3c4b741abc7c0fa29294c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Tiles 4_21.asset using Guid(ed16d4078e3c4b741abc7c0fa29294c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '1a35d22799cccb66ab2bcd80ea1f4059') in 0.008038 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Tiles/Tiles 4_5.asset
-  artifactKey: Guid(d27122af93336cf479bf119e0aea5fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Tiles 4_5.asset using Guid(d27122af93336cf479bf119e0aea5fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'bd39dfa1a1de7dfb3498a1d8b6add942') in 0.009313 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Tiles/Tiles 4_11.asset
-  artifactKey: Guid(faac67c74167a07498bfac2f2113f1bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Tiles 4_11.asset using Guid(faac67c74167a07498bfac2f2113f1bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'db3c73f66cbd637f5009f43d41799158') in 0.007945 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Tiles/Tiles 4_8.asset
-  artifactKey: Guid(50466f0d6e59c7546b0c15965c08a23e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Tiles 4_8.asset using Guid(50466f0d6e59c7546b0c15965c08a23e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'e00e470acfcd6430abc0b87bfb2bc0b2') in 0.006351 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Tiles/Tiles 4_12.asset
-  artifactKey: Guid(7b14dcc2517ef0f42b1bd0e5e814b782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Tiles 4_12.asset using Guid(7b14dcc2517ef0f42b1bd0e5e814b782) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'b80cce4dfc76baaaec1194cac5a6e82c') in 0.007287 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: La operación de E/S se anuló por una salida de subproceso o por una solicitud de aplicación.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  3.314 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.584 seconds
+Domain Reload Profiling: 4895ms
+	BeginReloadAssembly (2342ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (1805ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (235ms)
+	RebuildCommonClasses (76ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (808ms)
+		LoadAssemblies (789ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (246ms)
+			TypeCache.Refresh (179ms)
+				TypeCache.ScanAssembly (5ms)
+			ScanForSourceGeneratedMonoScriptInfo (48ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1585ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1014ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (180ms)
+			ProcessInitializeOnLoadAttributes (693ms)
+			ProcessInitializeOnLoadMethodAttributes (82ms)
+			AfterProcessingInitializeOnLoad (18ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (26ms)
+Refreshing native plugins compatible for Editor in 15.70 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4269 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (213.7 KB). Loaded Objects now: 4783.
+Memory consumption went from 148.9 MB to 148.7 MB.
+Total: 7.507600 ms (FindLiveObjects: 0.683700 ms CreateObjectMapping: 0.213500 ms MarkObjects: 6.444500 ms  DeleteObjects: 0.164100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

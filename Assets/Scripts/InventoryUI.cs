@@ -8,6 +8,7 @@ public class InventoryUI : MonoBehaviour
     public GameObject itemSlotPrefab;
     public Transform itemContainer;
     public Inventory playerInventory;
+   
 
     private bool isOpen = false;
 
@@ -60,4 +61,6 @@ public class InventoryUI : MonoBehaviour
 
         }
     }
+    
+    
 }

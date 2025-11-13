@@ -7,7 +7,7 @@ public class PickUpKey : MonoBehaviour
    
    
     public GameObject keyboard;
-    
+    public string kana;
     
 
     public float posX;
@@ -19,7 +19,7 @@ public class PickUpKey : MonoBehaviour
         {
             Debug.Log("PickupItem triggered by: " + collision.name);
             KeyboardUI keyScript = keyboard.GetComponent<KeyboardUI>();
-            keyScript.addNewKey(posX, posY);
+            keyScript.addNewKey(posX, posY,kana);
             Destroy(gameObject);
             //Inventory inv = collision.GetComponentInParent<Inventory>();
             // if (inv)

@@ -8,15 +8,24 @@ public class KeyboardUI : MonoBehaviour
 
     public GameObject keyboardPanel;
     public GameObject key;
+    public GameObject DelKey;
     public Transform itemContainer;
     public Transform viewPanel;
     public string words;
+
+    private float keyWidth;
+    private float keyHeight;
 
     private bool isOpen = true;
     // Start is called before the first frame update
     void Start()
     {
-        
+        keyWidth = DelKey.GetComponent<RectTransform>().rect.width;
+        keyHeight = DelKey.GetComponent<RectTransform>().rect.height;
+        //RectTransform rt = keyboardPanel.GetComponent<RectTransform>();
+        //rt.sizeDelta = new Vector2(keyWidth * 9, keyHeight * 5);
+       
+        DelKey.transform.localPosition = new Vector2(keyWidth*4, keyHeight*(-2));
     }
 
     // Update is called once per frame

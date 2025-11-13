@@ -150,7 +150,7 @@ Transform:
   m_GameObject: {fileID: 2376469}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.43, y: 5.08, z: 0}
+  m_LocalPosition: {x: 19.55, y: 19.23, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -269,6 +269,11 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!1 &82684860 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3613922660089131110, guid: 17a79c8a550f4f54598529eec4c1cd0c, type: 3}
+  m_PrefabInstance: {fileID: 2026614556}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &117418905
 GameObject:
   m_ObjectHideFlags: 0
@@ -645,6 +650,8 @@ MonoBehaviour:
   keyboardPanel: {fileID: 1276386606}
   key: {fileID: 3613922660089131110, guid: 17a79c8a550f4f54598529eec4c1cd0c, type: 3}
   DelKey: {fileID: 1820889819}
+  Enter: {fileID: 1004079154}
+  ze: {fileID: 82684860}
   itemContainer: {fileID: 1276386607}
   viewPanel: {fileID: 1748269080}
   words: 
@@ -24306,6 +24313,9 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 6906802291618614547, guid: a1444da7563a38945836f9b4fe3bdc69, type: 3}
+      insertIndex: 0
+      addedObject: {fileID: 1282190433}
     - targetCorrespondingSourceObject: {fileID: 4367077665390057269, guid: a1444da7563a38945836f9b4fe3bdc69, type: 3}
       insertIndex: -1
       addedObject: {fileID: 907453207}
@@ -55725,9 +55735,6 @@ PrefabInstance:
       addedObject: {fileID: 1140714480}
     - targetCorrespondingSourceObject: {fileID: 6906802291618614547, guid: a1444da7563a38945836f9b4fe3bdc69, type: 3}
       insertIndex: 1
-      addedObject: {fileID: 1282190433}
-    - targetCorrespondingSourceObject: {fileID: 6906802291618614547, guid: a1444da7563a38945836f9b4fe3bdc69, type: 3}
-      insertIndex: 2
       addedObject: {fileID: 2376470}
     - targetCorrespondingSourceObject: {fileID: 4367077665390057269, guid: a1444da7563a38945836f9b4fe3bdc69, type: 3}
       insertIndex: -1
@@ -55768,6 +55775,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9cd7af88afb68624e8d639eb43c78fb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1004079154 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3613922660089131110, guid: 17a79c8a550f4f54598529eec4c1cd0c, type: 3}
+  m_PrefabInstance: {fileID: 1562776302}
+  m_PrefabAsset: {fileID: 0}
 --- !u!60 &1107892745 stripped
 PolygonCollider2D:
   m_CorrespondingSourceObject: {fileID: 9053162917043407491, guid: a1444da7563a38945836f9b4fe3bdc69, type: 3}
@@ -55908,8 +55920,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 3f194b25117e16944a2562568f661e28, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Sprite: {fileID: 21300000, guid: ca57b8673b62d1d439e39ed863e790ff, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -55955,7 +55967,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
     newSize: {x: 0.5, y: 0.5}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -104816,11 +104828,11 @@ Transform:
   m_GameObject: {fileID: 1282190432}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.07, y: 4.98, z: 0}
+  m_LocalPosition: {x: -4.6, y: 0.93, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 986204689}
+  m_Father: {fileID: 666487311}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1282190434
 MonoBehaviour:
@@ -199189,7 +199201,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -1, y: 307}
+  m_AnchoredPosition: {x: -114.7, y: 307.8}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1748269081
@@ -199212,7 +199224,7 @@ MonoBehaviour:
   m_ChildAlignment: 0
   m_StartCorner: 0
   m_StartAxis: 0
-  m_CellSize: {x: 60, y: 60}
+  m_CellSize: {x: 40, y: 60}
   m_Spacing: {x: 0, y: 0}
   m_Constraint: 2
   m_ConstraintCount: 1

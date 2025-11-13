@@ -6,9 +6,9 @@ public class PickUpKey : MonoBehaviour
 {
    
    
-    public Transform keyboard;
-    public GameObject key;
-
+    public GameObject keyboard;
+    
+    
 
     public float posX;
     public float posY;
@@ -18,8 +18,9 @@ public class PickUpKey : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             Debug.Log("PickupItem triggered by: " + collision.name);
-            GameObject newKey = Instantiate(key, keyboard);
-            newKey.transform.localPosition = new Vector2(posX*60, posY*60);
+            KeyboardUI keyScript = keyboard.GetComponent<KeyboardUI>();
+            keyScript.addNewKey(posX, posY);
+            Destroy(gameObject);
             //Inventory inv = collision.GetComponentInParent<Inventory>();
             // if (inv)
             //{

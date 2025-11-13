@@ -378,6 +378,7 @@
 "Assets/Scripts/Inventory.cs"
 "Assets/Scripts/InventoryUI.cs"
 "Assets/Scripts/Item.cs"
+"Assets/Scripts/KeyboardScript.cs"
 "Assets/Scripts/KeyboardUI.cs"
 "Assets/Scripts/PauseManager.cs"
 "Assets/Scripts/PickupItem.cs"

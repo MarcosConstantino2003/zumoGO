@@ -6,9 +6,8 @@ public class KeyboardUI : MonoBehaviour
 {
 
     public GameObject keyboardPanel;
-    public GameObject itemSlotPrefab;
+    public GameObject key;
     public Transform itemContainer;
-
 
     private bool isOpen = true;
     // Start is called before the first frame update
@@ -33,6 +32,14 @@ public class KeyboardUI : MonoBehaviour
 
         
     }
-
-    
+    public void addNewKey(float posX, float posY)
+    {
+        
+        GameObject newKey = Instantiate(key, itemContainer);
+        newKey.transform.localPosition = new Vector2(posX * newKey.GetComponent<RectTransform>().rect.width, posY * newKey.GetComponent<RectTransform>().rect.height);
+        
+    }
+    public void keyPressed(GameObject key)
+    {
+    }
 }

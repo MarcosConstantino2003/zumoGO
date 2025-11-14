@@ -5,17 +5,16 @@ using UnityEngine.UI;
 public class UIManager : MonoBehaviour
 {
     [Header("Scene Elements")]
-    [SerializeField] private GameObject pausePanel;    // Solo en Game
-    [SerializeField] private Button startButton;       // Solo en MainMenu
-    [SerializeField] private Button continueButton;    // Solo en Game
-    [SerializeField] private Button menuButton;        // En Game o Menu
-    [SerializeField] private Button exitButton;        // En MainMenu (opcional)
+    [SerializeField] private GameObject pausePanel;    
+    [SerializeField] private Button startButton;       
+    [SerializeField] private Button continueButton;    
+    [SerializeField] private Button menuButton;        
+    [SerializeField] private Button exitButton;        
 
     private bool isPaused = false;
 
     private void Awake()
     {
-        // Nada persistente, cada escena tiene su propio UIManager
     }
 
     private void OnEnable()
@@ -50,7 +49,6 @@ public class UIManager : MonoBehaviour
 
     private void Update()
     {
-        // Solo en la escena Game
         if (SceneManager.GetActiveScene().name == "Game" && Input.GetKeyDown(KeyCode.Escape))
         {
             TogglePause();

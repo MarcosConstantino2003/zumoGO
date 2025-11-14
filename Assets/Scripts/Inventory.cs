@@ -17,7 +17,6 @@ public class Inventory : MonoBehaviour
 
     public void AddItem(Item newItem, int amount)
     {
-        Debug.Log($"Trying to add {amount}x {newItem.itemName}");
         bool found = false;
 
         foreach (InventorySlot slot in items)
@@ -26,7 +25,6 @@ public class Inventory : MonoBehaviour
             {
                 slot.quantity += amount;
                 found = true;
-                Debug.Log($"Stacked {amount}x {newItem.itemName}, total now {slot.quantity}");
                 break;
             }
         }
@@ -35,7 +33,6 @@ public class Inventory : MonoBehaviour
         {
             InventorySlot newSlot = new InventorySlot { item = newItem, quantity = amount };
             items.Add(newSlot);
-            Debug.Log($"Added new slot for {newItem.itemName}");
         }
 
         OnInventoryChanged?.Invoke();

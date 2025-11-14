@@ -16,7 +16,7 @@ public class InventoryUI : MonoBehaviour
     {
         if (playerInventory != null)
         {
-            playerInventory.OnInventoryChanged += RefreshUI; // 👈 se actualiza automáticamente
+            playerInventory.OnInventoryChanged += RefreshUI; 
         }
     }
 
@@ -45,10 +45,10 @@ public class InventoryUI : MonoBehaviour
         {
             return;
         }
-
         foreach (Transform child in itemContainer)
+        {
             Destroy(child.gameObject);
-
+        }
         foreach (Inventory.InventorySlot invSlot in playerInventory.items)
         {
             GameObject uiSlot = Instantiate(itemSlotPrefab, itemContainer);

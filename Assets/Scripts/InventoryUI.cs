@@ -14,6 +14,7 @@ public class InventoryUI : MonoBehaviour
 
     void Start()
     {
+        inventoryPanel.SetActive(isOpen);
         if (playerInventory != null)
         {
             playerInventory.OnInventoryChanged += RefreshUI; 

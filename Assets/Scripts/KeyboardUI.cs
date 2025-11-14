@@ -18,10 +18,14 @@ public class KeyboardUI : MonoBehaviour
     private float keyWidth;
     private float keyHeight;
 
-    private bool isOpen = true;
+    private bool isOpen = false;
+    public bool isAquired = false;
+
+    public Puzzles puzzle;
     // Start is called before the first frame update
     void Start()
     {
+        keyboardPanel.SetActive(isOpen);
         keyWidth = DelKey.transform.GetChild(0).GetComponent<RectTransform>().rect.width;
         keyHeight = DelKey.transform.GetChild(0).GetComponent<RectTransform>().rect.height-10;
         RectTransform rt = keyboardPanel.GetComponent<RectTransform>();
@@ -43,7 +47,7 @@ public class KeyboardUI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Q))
+        if (isAquired && Input.GetKeyDown(KeyCode.Q))
         {
             ToggleKeyboard();
         }
@@ -104,6 +108,7 @@ public class KeyboardUI : MonoBehaviour
         foreach (Transform child in viewPanel)
             Destroy(child.gameObject);
         print(words);
+        puzzle.checkEffect(words);
         words = "";
     }
 }

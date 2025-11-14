@@ -394,6 +394,7 @@
 "Assets/Scripts/Key.cs"
 "Assets/Scripts/KeyboardScript.cs"
 "Assets/Scripts/KeyboardUI.cs"
+"Assets/Scripts/Near.cs"
 "Assets/Scripts/PauseManager.cs"
 "Assets/Scripts/PickupItem.cs"
 "Assets/Scripts/PickUpKey.cs"

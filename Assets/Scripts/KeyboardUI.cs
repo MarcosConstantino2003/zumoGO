@@ -27,19 +27,27 @@ public class KeyboardUI : MonoBehaviour
     {
         keyboardPanel.SetActive(isOpen);
         keyWidth = DelKey.transform.GetChild(0).GetComponent<RectTransform>().rect.width;
-        keyHeight = DelKey.transform.GetChild(0).GetComponent<RectTransform>().rect.height-10;
+        keyHeight = DelKey.transform.GetChild(0).GetComponent<RectTransform>().rect.height;
         RectTransform rt = keyboardPanel.GetComponent<RectTransform>();
-        rt.sizeDelta = new Vector2(keyWidth * 9 + 8, keyHeight * 5 + 10);
-       
+        rt.sizeDelta = new Vector2(keyWidth * 9 + 8, keyHeight * 5);
+
+
+
+        Navigation nav = new Navigation();
+        nav.mode = Navigation.Mode.None;
+        
         DelKey.transform.localPosition = new Vector2(keyWidth*4, keyHeight*(2));
         Button b = DelKey.transform.GetChild(0).GetComponent<Button>();
         b.onClick.AddListener(delegate { delKeyPressed(); });
+        b.navigation = nav;
         Enter.transform.localPosition = new Vector2(keyWidth * 4, keyHeight * (-1));
         Button b1 = Enter.transform.GetChild(0).GetComponent<Button>();
         b1.onClick.AddListener(delegate { enterPressed(); });
+        b1.navigation = nav;
         ze.transform.localPosition = new Vector2(keyWidth , keyHeight * (-1));
         Button b2 = ze.transform.GetChild(0).GetComponent<Button>();
         b2.onClick.AddListener(delegate { keyPressed(ze); });
+        b2.navigation = nav;
         Key k = ze.GetComponent<Key>();
         k.KeyCode = "ze";
     }
@@ -76,10 +84,14 @@ public class KeyboardUI : MonoBehaviour
         b.onClick.AddListener(delegate { keyPressed(newKey); });
         Sprite pressed = Resources.Load<Sprite>($"keys/key-{kana}-pressed");
 
-        // Modify spriteState properly
+       
         var ss = b.spriteState;
         ss.pressedSprite = pressed;
         b.spriteState = ss;
+
+        Navigation nav = new Navigation();
+        nav.mode = Navigation.Mode.None;
+        b.navigation = nav;
 
     }
     public void keyPressed(GameObject keyp)

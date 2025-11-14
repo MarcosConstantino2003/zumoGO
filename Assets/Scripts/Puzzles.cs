@@ -5,6 +5,7 @@ using UnityEngine;
 public class Puzzles : MonoBehaviour
 {
     public GameObject waterfall;
+    public GameObject fire;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,7 +20,10 @@ public class Puzzles : MonoBehaviour
 
     public void checkEffect(string words)
     {
-        if (words=="mizu")
+        if (words=="mizu" && waterfall.transform.GetChild(0).GetComponent<Near>().isNear )
             Destroy(waterfall);
+
+        if (words == "kaji" && fire.transform.GetChild(0).GetComponent<Near>().isNear)
+            fire.transform.localScale *= 2; 
     }
 }

@@ -37,4 +37,16 @@ public class Inventory : MonoBehaviour
 
         OnInventoryChanged?.Invoke();
     }
+
+    public bool hasItem(Item question)
+    {
+        foreach (InventorySlot slot in items)
+        {
+            if (slot.item == question)
+            {
+                return true;
+            }
+        }
+        return false;
+    }
 }

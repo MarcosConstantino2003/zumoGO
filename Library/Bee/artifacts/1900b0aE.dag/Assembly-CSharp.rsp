@@ -394,6 +394,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -analyzer:"F:/Unity/Editor/2022.3.62f3/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"F:/Unity/Editor/2022.3.62f3/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
+"Assets/Scripts/Background.cs"
 "Assets/Scripts/Box.cs"
 "Assets/Scripts/Door.cs"
 "Assets/Scripts/Frog.cs"
@@ -412,6 +413,7 @@
 "Assets/Scripts/Puzzles.cs"
 "Assets/Scripts/Room.cs"
 "Assets/Scripts/RoomManager.cs"
+"Assets/Scripts/Trigger.cs"
 "Assets/Scripts/UIDrag.cs"
 "Assets/Scripts/UIManager.cs"
 -langversion:9.0

@@ -53,7 +53,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (dustEffect == null) return;
 
-        dustEmitter.position = new Vector3(transform.position.x, transform.position.y - 0.4f, 0);
+        dustEmitter.position = new Vector3(transform.position.x, transform.position.y - 0.5f, 0);
         dustEffect.Play();
     }
 

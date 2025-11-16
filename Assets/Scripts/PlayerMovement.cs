@@ -45,8 +45,22 @@ public class PlayerMovement : MonoBehaviour
         if (Mathf.Abs(moveInput) > 0.1f && isGrounded)
         {
             StepDust();
+            
 
         }
+        bool isWalking = Mathf.Abs(moveInput) > 0.1f || Mathf.Abs(moveInput) < -0.1f && isGrounded;
+        GetComponent<Animator>().SetBool("walking", isWalking);
+
+        SpriteRenderer sprite = GetComponent<SpriteRenderer>();
+        if (moveInput > 0.1f)
+        {
+            sprite.flipX = false; // Facing right
+        }
+        else if (moveInput < -0.1f)
+        {
+            sprite.flipX = true; // Facing left
+        }
+
     }
 
     void StepDust()

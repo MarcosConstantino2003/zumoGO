@@ -49,4 +49,19 @@ public class Inventory : MonoBehaviour
         }
         return false;
     }
+
+    public bool remove(Item question)
+    {
+        foreach (InventorySlot slot in items)
+        {
+            if (slot.item == question)
+            {
+                if (slot.quantity > 1)
+                    slot.quantity -= 1;
+                else
+                    items.Remove(slot);
+            }
+        }
+        return false;
+    }
 }

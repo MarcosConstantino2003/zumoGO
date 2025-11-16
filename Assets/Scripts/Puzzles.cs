@@ -7,7 +7,8 @@ public class Puzzles : MonoBehaviour
     public GameObject waterfall;
     public GameObject fire;
     public Inventory inv;
-    public Item kiwi;
+    public Item frutilla;
+    public Item frutillaQ;
     public GameObject[] boxes;
     // Start is called before the first frame update
     void Start()
@@ -26,8 +27,13 @@ public class Puzzles : MonoBehaviour
         if (words=="mizu" && waterfall.transform.GetChild(0).GetComponent<Near>().isNear )
             Destroy(waterfall);
 
-        if (words == "kaji" && fire.transform.GetChild(0).GetComponent<Near>().isNear && inv.hasItem(kiwi))
-            fire.transform.localScale *= 2; 
+        if (words == "kaji" && fire.transform.GetChild(0).GetComponent<Near>().isNear && inv.hasItem(frutilla))
+        {
+            fire.transform.localScale *= 2;
+            inv.remove(frutilla);
+            inv.AddItem(frutillaQ,1);
+        }
+            
 
         if(words == "hakowoakeru")
         {

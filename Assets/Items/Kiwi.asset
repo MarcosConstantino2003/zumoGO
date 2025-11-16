@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Kiwi
   m_EditorClassIdentifier: 
   itemName: Kiwi
-  icon: {fileID: 21300000, guid: 0292f7ffe773e174f9868861c391f05d, type: 3}
+  icon: {fileID: 21300000, guid: 2c91510373430b245a86784a09c89032, type: 3}
   description: Un Kiwi!
   isStackable: 1

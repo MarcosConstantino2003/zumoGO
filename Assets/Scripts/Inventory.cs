@@ -52,16 +52,30 @@ public class Inventory : MonoBehaviour
 
     public bool remove(Item question)
     {
+        bool hasToRemove = false;
+        InventorySlot slotToRemove = null;
         foreach (InventorySlot slot in items)
         {
             if (slot.item == question)
             {
                 if (slot.quantity > 1)
+                {
                     slot.quantity -= 1;
+                    return true;
+                }
+                    
                 else
-                    items.Remove(slot);
+                {
+                    slotToRemove = slot;
+                    hasToRemove = true;
+                  
+                }
+                break;
+                    
             }
         }
-        return false;
+        if(hasToRemove)
+            items.Remove(slotToRemove);
+        return hasToRemove;
     }
 }

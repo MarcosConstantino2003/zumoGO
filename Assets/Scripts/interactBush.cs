@@ -17,8 +17,9 @@ public class interactBush : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.F) && !harvested)
+        if (Input.GetKeyDown(KeyCode.F) && !harvested && transform.GetChild(0).GetComponent<Near>().isNear)
         {
+            harvested = true;
             this.GetComponent<SpriteRenderer>().sprite = noBerry;
             inv.AddItem(item, 1);
             Debug.Log("Picked up " + 1 + " x " + item.itemName);

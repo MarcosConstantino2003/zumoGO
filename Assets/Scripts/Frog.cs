@@ -17,9 +17,10 @@ public class Frog : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.F) && !fed && inv.hasItem(cookedBerry)  && transform.GetChild(0).GetComponent<Near>().isNear)
+        if (Input.GetKeyDown(KeyCode.F) && !fed && inv.hasItem(cookedBerry)  && transform.GetChild(1).GetComponent<NearFrog>().isNear)
         {
             Destroy(GetComponent<BoxCollider2D>());
+            inv.remove(cookedBerry);
             fed = true;
 
         }

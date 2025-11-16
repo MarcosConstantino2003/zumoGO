@@ -30,6 +30,7 @@ public class Puzzles : MonoBehaviour
         if (words == "kaji" && fire.transform.GetChild(0).GetComponent<Near>().isNear && inv.hasItem(frutilla))
         {
             fire.transform.localScale *= 2;
+            Debug.Log("Consumo " + frutilla.itemName + " y doy  " + frutillaQ.itemName);
             inv.remove(frutilla);
             inv.AddItem(frutillaQ,1);
         }

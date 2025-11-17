@@ -19,8 +19,8 @@ public class Frog : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.F) && !fed && inv.hasItem(cookedBerry)  && transform.GetChild(1).GetComponent<NearFrog>().isNear)
         {
-            Destroy(GetComponent<BoxCollider2D>());
-            Destroy(GetComponent<SpriteRenderer>());
+            //destroys object
+            Destroy(this.gameObject);
             inv.remove(cookedBerry);
             fed = true;
 

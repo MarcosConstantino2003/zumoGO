@@ -14,7 +14,7 @@ public class NearHouse : MonoBehaviour
     
     void Update()
     {
-        
+
     }
     
     void OnTriggerEnter2D(Collider2D other)
@@ -23,6 +23,7 @@ public class NearHouse : MonoBehaviour
         {
             isNear = true;
         }
+        
     }
 
     void OnTriggerExit2D(Collider2D other)
@@ -31,5 +32,6 @@ public class NearHouse : MonoBehaviour
         {
             isNear = false;
         }
+    }
     }
 }

@@ -56,13 +56,27 @@ public class Puzzles : MonoBehaviour
                 }
             }
         }
-        if(words == "ushirowoiku"){
-            if (house.transform.GetChild(0).GetComponent<NearHouse>().isNear)
+       
+       
+       if (words == "ushirowoiku") 
             {
-                house.SetActive(false);
-                solved = true;
+        if (house.transform.GetChild(0).GetComponent<NearHouse>().isNear)
+        {
+            Collider2D col = house.GetComponent<Collider2D>();
+            if (col != null)
+                col.enabled = false;
+
+            SpriteRenderer sr = house.GetComponent<SpriteRenderer>();
+            if (sr != null)
+            {
+                Color c = sr.color;
+                c.a = 0.3f;
+                sr.color = c;
             }
+
+            solved = true;
         }
+    }
 
         if(words == "kaze"){
             player.superJump = true;

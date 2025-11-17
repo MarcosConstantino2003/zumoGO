@@ -6,10 +6,14 @@ public class Puzzles : MonoBehaviour
 {
     public GameObject waterfall;
     public GameObject fire;
+    public GameObject house;
     public Inventory inv;
     public Item frutilla;
     public Item frutillaQ;
     public GameObject[] boxes;
+    public AudioSource puzzleSound;
+    public AudioSource boxSound;
+    public PlayerMovement player;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,8 +28,12 @@ public class Puzzles : MonoBehaviour
 
     public void checkEffect(string words)
     {
-        if (words=="mizu" && waterfall.transform.GetChild(0).GetComponent<Near>().isNear )
-            Destroy(waterfall);
+        bool solved = false;
+        if (words=="mizu" && waterfall.transform.GetChild(0).GetComponent<Near>().isNear ){
+                Destroy(waterfall);
+                solved = true;
+        }
+            
 
         if (words == "kaji" && fire.transform.GetChild(0).GetComponent<Near>().isNear && inv.hasItem(frutilla))
         {
@@ -33,18 +41,37 @@ public class Puzzles : MonoBehaviour
             Debug.Log("Consumo " + frutilla.itemName + " y doy  " + frutillaQ.itemName);
             inv.remove(frutilla);
             inv.AddItem(frutillaQ,1);
+            solved = true;
         }
             
 
-        if(words == "hakowoakeru")
+        if(words == "kaze")
         {
             foreach(GameObject box in boxes)
             {
                 if (box.transform.GetChild(0).GetComponent<Near>().isNear)
                 {
                     box.GetComponent<Box>().openBox();
+                    boxSound.Play();
                 }
             }
+        }
+        if(words == "ushirowoiku"){
+            if (house.transform.GetChild(0).GetComponent<NearHouse>().isNear)
+            {
+                house.SetActive(false);
+                solved = true;
+            }
+        }
+
+        if(words == "kaze"){
+            player.superJump = true;
+            player.jumpForce = 60f;
+            solved = true;
+        }
+        if (solved)
+        {
+            puzzleSound.Play();
         }
     }
 }

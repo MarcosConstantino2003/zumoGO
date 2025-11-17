@@ -72,7 +72,7 @@ public class KeyboardUI : MonoBehaviour
     }
     public void addNewKey(float posX, float posY,string kana)
     {
-        
+        print("Adding key " + kana);
         GameObject newKey = Instantiate(key, itemContainer);
         Key k = newKey.GetComponent<Key>();
         k.KeyCode = kana;
@@ -121,12 +121,13 @@ public class KeyboardUI : MonoBehaviour
 
     public void enterPressed()
     {
-        
+        string wordNow = words;
+        words = "";
         foreach (Transform child in viewPanel)
             Destroy(child.gameObject);
         panelScript.RefreshSize(0);
         print(words);
-        puzzle.checkEffect(words);
+        puzzle.checkEffect(wordNow);
         words = "";
     }
 }

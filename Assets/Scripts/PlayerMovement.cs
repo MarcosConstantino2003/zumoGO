@@ -17,6 +17,10 @@ public class PlayerMovement : MonoBehaviour
     private float moveInput;
     private bool isGrounded;
     private bool isJumping; // Controla si está en medio de un salto
+    public bool superJump = false;
+
+    public AudioSource jumpSound;
+    public AudioSource stepSound;
     
     void Start()
     {
@@ -31,9 +35,20 @@ public class PlayerMovement : MonoBehaviour
         // Iniciar salto
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
-            rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+            if (superJump)
+            {
+                jumpForce = 60f;
+                rb.velocity = new Vector2(rb.velocity.x, jumpForce * 3f);
+                superJump = false;
+                jumpForce = 22f;
+            }
+            else
+            {
+                rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+            }
             isJumping = true;
             JumpDust();
+            PlayJumpSound();
         }
         
         // Si se suelta la tecla de salto mientras está subiendo
@@ -64,6 +79,7 @@ public class PlayerMovement : MonoBehaviour
         
         bool isWalking = Mathf.Abs(moveInput) > 0.1f && isGrounded;
         GetComponent<Animator>().SetBool("walking", isWalking);
+        PlayStepSound(isWalking);
         
         SpriteRenderer sprite = GetComponent<SpriteRenderer>();
         if (moveInput > 0.1f)
@@ -89,4 +105,28 @@ public class PlayerMovement : MonoBehaviour
         dustEmitter.position = new Vector3(transform.position.x, transform.position.y - 0.4f, 0);
         dustEffect.Play();
     }
+
+    void PlayJumpSound()
+    {
+        if (jumpSound != null)
+        {
+            jumpSound.Play();
+        }
+    }
+
+    void PlayStepSound(bool isWalking)
+    {
+        if (stepSound == null) return;
+
+        if (isWalking && !stepSound.isPlaying)
+        {
+            stepSound.Play();
+        }
+        else if (!isWalking && stepSound.isPlaying)
+        {
+            stepSound.Pause();
+        }
+    }
+
+    
 }

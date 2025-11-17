@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class Inventory : MonoBehaviour
 {
     [Serializable]
@@ -10,7 +10,8 @@ public class Inventory : MonoBehaviour
         public Item item;
         public int quantity;
     }
-
+    public AudioSource itemPickupSound;
+    public int columns = 0;
     public List<InventorySlot> items = new List<InventorySlot>();
 
     public event Action OnInventoryChanged;
@@ -33,6 +34,11 @@ public class Inventory : MonoBehaviour
         {
             InventorySlot newSlot = new InventorySlot { item = newItem, quantity = amount };
             items.Add(newSlot);
+        }
+
+        if (itemPickupSound != null)
+        {
+            itemPickupSound.Play();
         }
 
         OnInventoryChanged?.Invoke();
@@ -77,5 +83,18 @@ public class Inventory : MonoBehaviour
         if(hasToRemove)
             items.Remove(slotToRemove);
         return hasToRemove;
+    }
+    //when having 3 columns, switch to victory screen.
+    void Update()
+    {
+        if (columns >= 3)
+        {
+            SceneManager.LoadScene(2);
+        }
+    }
+
+    public void addColumn()
+    {
+        columns += 1;
     }
 }

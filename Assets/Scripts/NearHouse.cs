@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class NearHouse : MonoBehaviour
 {
-    private bool isNear = false;
+    public bool isNear = false;
     private GameObject house; 
     
     void Start()
@@ -14,10 +14,7 @@ public class NearHouse : MonoBehaviour
     
     void Update()
     {
-        if (isNear && Input.GetKeyDown(KeyCode.F))
-        {
-            house.SetActive(false);
-        }
+        
     }
     
     void OnTriggerEnter2D(Collider2D other)

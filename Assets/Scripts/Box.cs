@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Box : MonoBehaviour
 {
+
+    public GameObject[] itemsInBox;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,5 +21,9 @@ public class Box : MonoBehaviour
     {
         print("OPENN");
         GetComponent<Animator>().SetTrigger("Opens");
+        foreach (GameObject item in itemsInBox)
+        {
+            item.SetActive(true);
+        }
     }
 }

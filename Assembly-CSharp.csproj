@@ -75,6 +75,7 @@
     <Compile Include="Assets\Scripts\PickupItem.cs" />
     <Compile Include="Assets\Scripts\Background.cs" />
     <Compile Include="Assets\Scripts\Trigger.cs" />
+    <Compile Include="Assets\Scripts\Column.cs" />
     <Compile Include="Assets\Scripts\KeyboardScript.cs" />
     <Compile Include="Assets\Scripts\Key.cs" />
     <Compile Include="Assets\Scripts\Inventory.cs" />
@@ -84,6 +85,7 @@
     <Compile Include="Assets\Scripts\PickUpKey.cs" />
     <Compile Include="Assets\Scripts\NearHouse.cs" />
     <Compile Include="Assets\Scripts\Door.cs" />
+    <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
     <Compile Include="Assets\Scripts\NearFrog.cs" />
     <Compile Include="Assets\Scripts\Item.cs" />
     <Compile Include="Assets\Scripts\InventoryUI.cs" />

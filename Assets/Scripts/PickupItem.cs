@@ -5,6 +5,7 @@ public class PickupItem : MonoBehaviour
     public Item item;
     public int quantity = 1;
     public KeyboardUI keyboard;
+    
 
     private void OnTriggerEnter2D(Collider2D collision)
     {

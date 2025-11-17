@@ -33,5 +33,4 @@ public class NearHouse : MonoBehaviour
             isNear = false;
         }
     }
-    }
 }

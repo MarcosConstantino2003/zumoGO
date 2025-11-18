@@ -45,7 +45,7 @@ public class Puzzles : MonoBehaviour
         }
             
 
-        if(words == "kaze")
+        if(words == "hakowoakeru")
         {
             foreach(GameObject box in boxes)
             {
@@ -72,7 +72,9 @@ public class Puzzles : MonoBehaviour
                 Color c = sr.color;
                 c.a = 0.3f;
                 sr.color = c;
-            }
+                    sr.sortingOrder += 5;
+                    house.transform.GetChild(0).GetComponent<SpriteRenderer>().sortingOrder +=5 ;
+                }
 
             solved = true;
         }
@@ -80,7 +82,7 @@ public class Puzzles : MonoBehaviour
 
         if(words == "kaze"){
             player.superJump = true;
-            player.jumpForce = 60f;
+            player.jumpForce = 35f;
             solved = true;
         }
         if (solved)

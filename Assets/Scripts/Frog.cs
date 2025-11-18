@@ -8,6 +8,7 @@ public class Frog : MonoBehaviour
     public Sprite noBerry;
     public Inventory inv;
     public Item cookedBerry;
+    public GameObject FtoInt;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,10 +18,22 @@ public class Frog : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.F) && !fed && inv.hasItem(cookedBerry)  && transform.GetChild(1).GetComponent<NearFrog>().isNear)
+        bool readyToInteract = !fed && inv.hasItem(cookedBerry) &&  transform.GetChild(0).GetComponent<NearFrog>().isNear;
+
+        if(readyToInteract)
+        {
+            FtoInt.SetActive(true);
+        }
+        else
+        {
+            FtoInt.SetActive(false);
+        }
+
+        if (readyToInteract && Input.GetKeyDown(KeyCode.F))
         {
             //destroys object
-            Destroy(this.gameObject);
+            GetComponent<Animator>().SetTrigger("disapear");
+            GetComponent<Collider2D>().enabled = false;
             inv.remove(cookedBerry);
             fed = true;
 

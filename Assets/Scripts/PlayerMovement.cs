@@ -37,7 +37,7 @@ public class PlayerMovement : MonoBehaviour
         {
             if (superJump)
             {
-                jumpForce = 60f;
+                jumpForce = 35f;
                 rb.velocity = new Vector2(rb.velocity.x, jumpForce * 3f);
                 superJump = false;
                 jumpForce = 22f;

@@ -394,6 +394,7 @@
 "Assets/Scripts/Box.cs"
 "Assets/Scripts/Column.cs"
 "Assets/Scripts/Door.cs"
+"Assets/Scripts/FadingTransition.cs"
 "Assets/Scripts/Floating.cs"
 "Assets/Scripts/Frog.cs"
 "Assets/Scripts/interactBush.cs"

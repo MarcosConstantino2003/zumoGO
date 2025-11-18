@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 public class Inventory : MonoBehaviour
 {
     [Serializable]
@@ -13,6 +14,8 @@ public class Inventory : MonoBehaviour
     public AudioSource itemPickupSound;
     public int columns = 0;
     public List<InventorySlot> items = new List<InventorySlot>();
+    public GameObject fadeEffect;
+    public float duration;
 
     public event Action OnInventoryChanged;
 
@@ -89,8 +92,24 @@ public class Inventory : MonoBehaviour
     {
         if (columns >= 3)
         {
-            SceneManager.LoadScene(2);
+            StartCoroutine(Fader(duration));
         }
+    }
+
+     IEnumerator<string> Fader( float duration)
+    {
+        Image fade = fadeEffect.GetComponent<Image>();
+        fadeEffect.SetActive(true);
+        float t = 0;
+        Color c = fade.color;
+        while (t < duration)
+        {
+            t += Time.deltaTime;
+            c.a = t / duration;
+            fade.color = c;
+            yield return null;
+        }
+        SceneManager.LoadScene(2);
     }
 
     public void addColumn()

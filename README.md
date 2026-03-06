@@ -2,6 +2,17 @@
 
 [![Español](https://img.shields.io/badge/Language-Espa%C3%B1ol-green)](#español) [![English](https://img.shields.io/badge/Language-English-blue)](#english) [![Engine](https://img.shields.io/badge/Made_with-Unity-black?logo=unity)](#) [![Jam](https://img.shields.io/badge/ThinkyConJam-2025-purple)](#)
 
+<div align="center">
+  <img src="Assets/Sprites/LOGO.png" alt="Logo" width="300"/>
+  
+  <h3>Puzzle linguistic 2D platformer for ThinkyJam 2025</i></h3>
+
+  <p>
+    <a href="#español">Español</a> •
+    <a href="#english">English</a>
+  </p>
+</div>
+
 ---
 
 <a id="español"></a>
